@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main_header_footer.css">
+    <link rel="stylesheet" href="css/compras.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Cabeçalho -->
+        <header class="center">
+            <img src="img/LogoCOM_Topo.png" alt="Logo do cabeçalho">
+            <nav>
+                <ul>
+                    <li class="link"><a href="inicial.html">Inicial</a></li>
+                    <li class="link"><a href="mascaras.html">Máscaras</a></li>
+                    <li class="link"><a href="camisas.html">Camisas</a></li>
+                    <li class="link"><a href="compras.html">Compras</a></li>
+                </ul>
+            </nav>
+        </header> <!-- /Cabeçalho -->
+
+        <!-- Seção -->
+        <section class="compras">
+            <form action='identificacao.html' method="POST">
+                <!-- Seleção de Produtos e Lista de Compras -->
+                <fieldset>
+                    <legend>Seleção de Produtos e Lista de Compras</legend>
+
+                        <!-- Selecionado -->
+                        <fieldset class="selecionado">
+                            <legend>Selecionado</legend>
+
+                            <div class="select">
+                                <label for="produto">Produto:</label>
+                                <select name="produto" id="produto">
+                                    <option>---</option>
+                                </select>
+                            </div>
+
+                            <div class="select">
+                                <label for="tamanho">Tamanho:</label>
+                                <select name="tamanho" id="tamanho">
+                                    <option>---</option>
+                                </select>
+                            </div>
+
+                            <div class="select">
+                                <label for="cor">Cor:</label>
+                                <select name="cor" id="cor">
+                                    <option>---</option>
+                                </select>
+                            </div>
+
+                            <div class="select">
+                                <label for="modelo">Modelo:</label>
+                                <select name="modelo" id="modelo">
+                                    <option>---</option>
+                                </select>
+                            </div>
+
+                            <div class="lista">
+                                <input type="text" readonly>
+                            </div>
+
+                            <div class="comprar">
+                                <div class="comprar_btn">
+                                    <button type="button">Comprar</button type="button">
+                                </div>
+
+                                <label for="preco">R$</label>
+                                <input type="text" readonly>
+
+                            </div>
+                        </fieldset> <!-- /Selecionado -->
+
+                        <div class="area">
+                            <textarea></textarea>
+                        </div>
+
+                    <div class="preco_total">
+                        <label for="total">Total R$</label>
+                        <input type="text" readonly>
+                    </div>
+
+                </fieldset> <!-- /Seleção de Produtos e Lista de Compras -->
+
+                <div class="final">
+                    <input type="submit" value="Continuar">
+                    <button type="button">Limpar</button type="button">
+                </div>
+            </form>
+        </section> <!-- /Seção -->
+
+        <!-- Rodapé -->
+        <footer class="center">
+            <address>Via Lactea 1234 / Tel: (21) 98765-4321 / contato@camplanetas.com.br</address>
+        </footer> <!-- /Rodapé -->
+
+    </main>
+</body>
+
+</html>

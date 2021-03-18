@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #FFFF00;
+}
+
+body {
+    background-color: #551177;
+    font-family: tahoma;
+}
+
+a {
+    color: #FFFF00;
+}
+
+a:visited {
+    color: #EEEE00;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#links td {
+    height: 25px;
+}
+
+td {
+    text-align: center;
+}

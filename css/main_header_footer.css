@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #551177;
+    color: #FFFF00;
+}
+
+main {
+    width: 750px;
+    margin: auto;
+}
+
+header {
+    border-bottom: 2px solid #FFFF00;
+}
+
+section {
+    margin: 15px 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.link {
+    display: inline-block;
+    list-style: none;
+    margin-right: 70px;
+}
+
+.link a {
+    color: #FFFF00;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: #cccc00;
+}
+
+footer {
+    margin-top: 25px;
+    border-top: 2px solid #FFFF00;
+    padding-top: 15px;
+}
